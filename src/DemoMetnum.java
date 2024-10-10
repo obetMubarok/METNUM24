@@ -4,12 +4,13 @@ import java.text.DecimalFormat;
 
 class Metnum {
 
-    //buatlah method untuk mengembalikan nilai
-    //f(x) = x^3 + 2x^2 + 10x -20 = 0
+    
     double a, b, c, cLama, fa, fb, fc, e;
 
+    //buatlah method untuk mengembalikan nilai f(x)
     public double fungsi(double x) {
-        return (Math.pow(x, 3) + 2 * Math.pow(x, 2) + 10 * x - 20);
+        return (Math.pow(x, 3) + 2 * Math.pow(x, 2) + 10 * x - 10);
+        
     }
 
     public boolean cekAB(double a, double b) {
@@ -60,6 +61,6 @@ public class DemoMetnum {
     public static void main(String[] args) {
         Metnum m = new Metnum();
 
-        m.hitungBagiDua(2, 1, 0.00001);
+        m.hitungBagiDua(-1, 2, 0.00001);
     }
 }
