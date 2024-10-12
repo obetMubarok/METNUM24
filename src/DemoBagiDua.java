@@ -56,7 +56,7 @@ class Metnum {
     }
 }
 
-public class DemoMetnum {
+public class DemoBagiDua {
 
     public static void main(String[] args) {
         Metnum m = new Metnum();
